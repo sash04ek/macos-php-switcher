@@ -1,4 +1,4 @@
-# PHP Version Manager for Homebrew
+# 🚀 PHP Version Manager for Homebrew
 
 ![License](https://img.shields.io/github/license/yourusername/php-version-manager) ![Bash](https://img.shields.io/badge/Language-Bash-4EAA25) ![macOS](https://img.shields.io/badge/Platform-macOS-000000) ![PHP Version](https://img.shields.io/badge/PHP-8.2-blue)
 
@@ -7,7 +7,7 @@ Easily **switch PHP versions**, **stop services**, and **install missing version
 
 ---
 
-## Features
+## ✨ Features
 
 - ✅ Show the **currently active PHP version**  
 - ✅ List all **installed PHP versions**  
@@ -18,14 +18,14 @@ Easily **switch PHP versions**, **stop services**, and **install missing version
 
 ---
 
-## Prerequisites
+## 🖥 Prerequisites
 
 - macOS  
 - [Homebrew](https://brew.sh/) (script can install it automatically if missing)  
 
 ---
 
-## Installation
+## ⚡ Installation
 
 ```bash
 git clone https://github.com/sash04ek/macos-php-switcher.git
@@ -36,7 +36,7 @@ sudo mv sphp.sh /usr/local/bin/sphp
 
 ---
 
-## Usage
+## 🛠 Usage
 
 Show current PHP version and installed versions
 ```bash
@@ -81,7 +81,7 @@ All PHP services have been stopped.
 
 ---
 
-## Interactive Prompts
+## 🎛 Interactive Prompts
 
 - Install missing Homebrew if needed
 - Install missing PHP versions on demand
@@ -89,7 +89,7 @@ All PHP services have been stopped.
 
 ---
 
-## Colors in Output
+## 🎨 Colors in Output
 
 - Blue – Info
 - Green – Success
@@ -98,7 +98,7 @@ All PHP services have been stopped.
 
 ---
 
-## Notes
+## 📝 Notes
 
 - Uses Homebrew services to run PHP in the background
 - Works best with PHP installed via Homebrew (php, php@8.1, php@8.0, etc.)
@@ -106,7 +106,7 @@ All PHP services have been stopped.
 
 ---
 
-## License
+## 📄 License
 
 MIT License © sash04ek
 
