@@ -58,7 +58,7 @@ check_brew() {
 
 show_installed_php_versions() {
   info "Installed PHP versions:"
-  brew list --formula \
+  brew list --formula --quiet \
     | grep -E '^php(@[0-9]+\.[0-9]+)?$' \
     | while read -r f; do
         ver=$(brew list --versions "$f" | cut -d' ' -f2-)
