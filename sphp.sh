@@ -203,27 +203,24 @@ list_php_versions() {
 
 # Show help message
 show_help() {
-    cat << EOF
-${BLUE}macOS PHP Switcher${NC}
-
-${BLUE}USAGE:${NC}
-    $SCRIPT_NAME [COMMAND] [VERSION]
-
-${BLUE}COMMANDS:${NC}
-    list                    List all installed PHP versions
-    switch VERSION          Switch to specified PHP version (e.g., 8.1)
-    help                    Show this help message
-
-${BLUE}EXAMPLES:${NC}
-    $SCRIPT_NAME list               # Show installed PHP versions
-    $SCRIPT_NAME switch 8.1         # Switch to PHP 8.1
-    $SCRIPT_NAME switch 7.4         # Switch to PHP 7.4
-
-${BLUE}REQUIREMENTS:${NC}
-    - Homebrew
-    - At least one PHP version installed via Homebrew (brew install php@VERSION)
-
-EOF
+    echo -e "${BLUE}macOS PHP Switcher${NC}\n"
+    
+    echo -e "${BLUE}USAGE:${NC}"
+    echo "    $SCRIPT_NAME [COMMAND] [VERSION]\n"
+    
+    echo -e "${BLUE}COMMANDS:${NC}"
+    echo "    list                    List all installed PHP versions"
+    echo "    switch VERSION          Switch to specified PHP version (e.g., 8.1)"
+    echo "    help                    Show this help message\n"
+    
+    echo -e "${BLUE}EXAMPLES: ${NC}"
+    echo "    $SCRIPT_NAME list               # Show installed PHP versions"
+    echo "    $SCRIPT_NAME switch 8.1         # Switch to PHP 8.1"
+    echo "    $SCRIPT_NAME switch 7.4         # Switch to PHP 7.4\n"
+    
+    echo -e "${BLUE}REQUIREMENTS:${NC}"
+    echo "    - Homebrew"
+    echo "    - At least one PHP version installed via Homebrew (brew install php@VERSION)"
 }
 
 # Main switch function
