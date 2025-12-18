@@ -58,7 +58,7 @@ Usage:
 
 Switch PHP version
 ```bash
-sphp 8.3
+sphp 8.1
 ```
 
 Example output:
