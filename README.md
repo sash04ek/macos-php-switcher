@@ -28,7 +28,7 @@ Easily **switch PHP versions**, **stop services**, and **install missing version
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/php-version-manager.git
-cd php-version-manager
-chmod +x php-manager.sh
-sudo mv php-manager.sh /usr/local/bin/php-manager
+git clone https://github.com/sash04ek/macos-php-switcher.git
+cd macos-php-switcher
+chmod +x sphp.sh
+sudo mv sphp.sh /usr/local/bin/sphp
