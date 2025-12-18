@@ -52,8 +52,8 @@ Installed PHP versions:
   - php@8.0 (8.0.28)
 
 Usage:
-  php-manager <version>   Switch PHP version (e.g. 8.2)
-  php-manager stop        Stop all PHP services
+  sphp <version>   Switch PHP version (e.g. 8.2)
+  sphp stop        Stop all PHP services
 ```
 
 Switch PHP version
